@@ -1,0 +1,123 @@
+/* this is for making responsive the */
+
+/*......................... SongList media queryEnd......................... */
+@media screen and (max-width:426px) {
+  .nav-bar a {
+    margin-inline: 0.2rem;
+    font-size: 1rem;
+  }
+  .wrapper {
+    padding: 4px;
+    align-items: start;
+    height: 200px;
+  }
+  .artists h3{
+    padding:3px 0;}
+  
+  .item {
+    width: 400px;
+    height: 200px;
+  }
+  /* //artists infinite scroll animation */  
+  .images img{
+    width: 100px;
+    height: 100px;
+  }
+  .artists{
+    height: 180px;
+   
+  }
+
+
+}
+
+@media screen and (max-width:768px) {
+  #tgl {
+    display: inline;
+  }
+
+  .hide {
+    height: 0px;
+  }
+
+  .show {
+    height: initial;
+    overflow-x: hidden;
+  }
+
+  .song-category-name {
+    width: 100%;
+    margin: 0;
+  }
+
+  .songName-list {
+    padding: 0;
+    transition: height 0.3s ease-in-out;
+  }
+
+  .songName-list li {
+    display: block;
+    width: 100%;
+    ;
+    margin: 0;
+  }
+
+  .songName-list li a {
+    text-align: center;
+    display: block;
+    padding-inline: 0;
+    padding-block: 1rem;
+  }
+}
+
+/* ......................Media Query For Corousel...................... */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  #nextBtn {
+    left: 8rem;
+  }
+
+  #prevBtn {
+    right: 8rem;
+  }
+
+  .navigator {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #nextBtn {
+    left: 8rem;
+  }
+
+  #prevBtn {
+    right: 8rem;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  #nextBtn {
+    left: 8rem;
+  }
+
+  #prevBtn {
+    right: 8rem;
+  }
+
+  .navigator {
+    display: none;
+  }
+
+  .item img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .navigator {
+    display: none;
+  }
+}
