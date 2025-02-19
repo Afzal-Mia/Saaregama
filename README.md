@@ -4,7 +4,7 @@
 
 **SaareGame** is a fully responsive web-based game built using **HTML, CSS, and JavaScript**. Designed for an engaging and interactive experience, the game offers seamless gameplay across different devices, ensuring an enjoyable experience for players on desktop, tablet, and mobile.
 
-![SaareGame Screenshot]([https://res.cloudinary.com/diufr72e9/image/upload/v1739943676/Screenshot_50_p0tslq.png](https://res.cloudinary.com/diufr72e9/image/upload/v1739943678/Screenshot_50_pnjr94.png))
+![SaareGame Screenshot](https://res.cloudinary.com/diufr72e9/image/upload/v1739943678/Screenshot_50_pnjr94.png)
 ![SaareGame Screenshot](https://res.cloudinary.com/diufr72e9/image/upload/v1739943676/Screenshot_51_p0tslq.png)
 
 ## Features
